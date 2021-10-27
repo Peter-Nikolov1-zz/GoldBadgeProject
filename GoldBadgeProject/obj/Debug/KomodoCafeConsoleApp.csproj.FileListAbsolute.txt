@@ -1,0 +1,9 @@
+C:\Users\Peter\source\repos\GoldBadgeProject\GoldBadgeProject\obj\Debug\KomodoCafeConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\GoldBadgeProject\GoldBadgeProject\bin\Debug\GoldBadgeProject.exe.config
+C:\Users\Peter\source\repos\GoldBadgeProject\GoldBadgeProject\bin\Debug\GoldBadgeProject.exe
+C:\Users\Peter\source\repos\GoldBadgeProject\GoldBadgeProject\bin\Debug\GoldBadgeProject.pdb
+C:\Users\Peter\source\repos\GoldBadgeProject\GoldBadgeProject\bin\Debug\KomodoCafeClassLibrary.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\GoldBadgeProject\bin\Debug\KomodoCafeClassLibrary.pdb
+C:\Users\Peter\source\repos\GoldBadgeProject\GoldBadgeProject\obj\Debug\KomodoCafeConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\GoldBadgeProject\GoldBadgeProject\obj\Debug\GoldBadgeProject.exe
+C:\Users\Peter\source\repos\GoldBadgeProject\GoldBadgeProject\obj\Debug\GoldBadgeProject.pdb
