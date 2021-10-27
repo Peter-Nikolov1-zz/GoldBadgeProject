@@ -95,6 +95,7 @@ namespace GoldBadgeProject
                         ViewAllMenuItems();
                         break;
                     case "4":
+                        ExitMenu();
                         continueToRun = false;
                         break;
                     default:
@@ -191,6 +192,9 @@ namespace GoldBadgeProject
             Console.WriteLine($"Ingredients: {komodoCafeMenu.Ingredients}");
             Console.WriteLine($"Price: {komodoCafeMenu.MealPrice}");
         }
-
+        private void ExitMenu()
+        {
+            Environment.Exit(0);
+        }
     }
 }
