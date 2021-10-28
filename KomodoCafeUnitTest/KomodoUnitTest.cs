@@ -7,8 +7,12 @@ namespace KomodoCafeUnitTest
     public class KomodoUnitTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public bool AddItemToMenu(KomodoCafeMenu komodoCafeMenu)
         {
+            int beginningCount = _cafeMenu.Count;
+            _cafeMenu.Add(komodoCafeMenu);
+            bool wasAdded = _cafeMenu.Count > beginningCount ? true : false;
+            return wasAdded;
         }
     }
 }
