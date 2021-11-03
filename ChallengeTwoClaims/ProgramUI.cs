@@ -27,7 +27,8 @@ namespace ChallengeTwoClaims
                     "--------------------------- \n" +
                     "1. See All Claims \n" +
                     "2. Take Care Of Next Claim \n" +
-                    "3. Enter A New Claim");
+                    "3. Enter A New Claim \n" +
+                    "4. Exit Menu");
                 string userInput = Console.ReadLine();
                 switch (userInput)
                 {
@@ -41,7 +42,7 @@ namespace ChallengeTwoClaims
                         CreateNewClaim();
                         break;
                     case "4":
-                        //ExitMenu();
+                        ExitMenu();
                         continueToRun = false;
                         break;
                 }
@@ -51,7 +52,7 @@ namespace ChallengeTwoClaims
         {
             Console.Clear();
             Queue<Claim> claims = claimRepo.SeeAllClaims();
-
+            Console.WriteLine("ClaimID\tType\tDescription\t\tAmount\tDateOfAccident\t\tDateOfClaim\t\tIsValid \n");
             foreach (Claim claim in claims)
             {
                 DisplayClaim(claim);
@@ -60,8 +61,7 @@ namespace ChallengeTwoClaims
         }
         private void DisplayClaim(Claim claim)
         {
-            Console.WriteLine("ClaimID\tType\tDescription\t\tAmount\tDateOfAccident\t\tDateOfClaim\t\tIsValid \n");
-            Console.WriteLine($"{claim.ClaimID}\t{claim.ClaimType}\t{claim.Description}\t{claim.ClaimAmount}\t{claim.DateOfAccident}\t{claim.DateOfClaim}\t{claim.IsValid}");
+            Console.WriteLine($"{claim.ClaimID}\t{claim.ClaimType}\t{claim.Description}\t{claim.ClaimAmount}\t{claim.DateOfAccident.ToString("MM/dd/yyyy")}\t\t{claim.DateOfClaim.ToString("MM/dd/yyyy")}\t\t{claim.IsValid} \n");
         }
         private void WorkNextClaim()
         {
@@ -107,7 +107,7 @@ namespace ChallengeTwoClaims
                 "2. Home \n" +
                 "3. Theft");
             string claimType = Console.ReadLine();
-            switch (claimID)
+            switch (claimType)
             {
                 case "1":
                 case "Car":
@@ -157,14 +157,14 @@ namespace ChallengeTwoClaims
                 Console.WriteLine("Invalid date, please try again");
                 dateOfClaim = Console.ReadLine();
             }
-
-            Console.WriteLine("Is this a valid claim?");
+            claimRepo.AddClaimToList(claim);
         }
         private void SeedClaimList()
         {
-            Claim claim = new Claim(1, ClaimType.Car, "Car Accident on 465E.", 400.00, new DateTime(2018, 4, 25), new DateTime(2018, 4, 27), true);
-            Claim claim1 = new Claim(2, ClaimType.Home, "House fire in kitchen.", 4000.00, new DateTime(2018, 4, 11), new DateTime(2018, 4, 12), true);
-            Claim claim2 = new Claim(3, ClaimType.Theft, "Stolen pancakes\t", 4.00, new DateTime(2018, 4, 27), new DateTime(2018, 6, 1), false);
+
+            Claim claim = new Claim(1, ClaimType.Car, "Car Accident on 465E.", 400.00, new DateTime(2018, 4, 25), new DateTime(2018, 4, 27));
+            Claim claim1 = new Claim(2, ClaimType.Home, "House fire in kitchen.", 4000.00, new DateTime(2018, 4, 11), new DateTime(2018, 4, 12));
+            Claim claim2 = new Claim(3, ClaimType.Theft, "Stolen pancakes\t", 4.00, new DateTime(2018, 4, 27), new DateTime(2018, 6, 1));
             claimRepo.AddClaimToList(claim);
             claimRepo.AddClaimToList(claim1);
             claimRepo.AddClaimToList(claim2);

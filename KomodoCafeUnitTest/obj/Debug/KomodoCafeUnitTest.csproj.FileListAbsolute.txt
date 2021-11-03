@@ -11,6 +11,5 @@ C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeUnitTest\bin\Debug\Micros
 C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeUnitTest\bin\Debug\KomodoCafeClassLibrary.pdb
 C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeUnitTest\obj\Debug\KomodoCafeUnitTest.csproj.CopyComplete
 C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeUnitTest\obj\Debug\KomodoCafeUnitTest.dll
 C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeUnitTest\obj\Debug\KomodoCafeUnitTest.pdb

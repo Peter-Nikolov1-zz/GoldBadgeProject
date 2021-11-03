@@ -21,14 +21,28 @@ namespace ClaimsClassLibrary
         public double ClaimAmount { get; set; }
         public DateTime DateOfAccident { get; set; }
         public DateTime DateOfClaim { get; set; }
-        public bool IsValid { get; set; }
+        public bool IsValid
+        {
+            get
+            {
+                TimeSpan timeSpan = DateOfClaim - DateOfAccident;
+                if (timeSpan.TotalDays >= 30)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+        }
 
         public Claim()
         {
 
         }
 
-        public Claim(int claimID, ClaimType claimType, string description, double claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
+        public Claim(int claimID, ClaimType claimType, string description, double claimAmount, DateTime dateOfIncident, DateTime dateOfClaim)
         {
             ClaimID = claimID;
             ClaimType = claimType;
@@ -36,7 +50,6 @@ namespace ClaimsClassLibrary
             ClaimAmount = claimAmount;
             DateOfAccident = dateOfIncident;
             DateOfClaim = dateOfClaim;
-            IsValid = isValid;
         }
     }
 }

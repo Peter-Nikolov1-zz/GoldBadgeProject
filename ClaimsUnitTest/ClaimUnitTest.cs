@@ -6,7 +6,7 @@ namespace ClaimsUnitTest
     [TestClass]
     public class ClaimUnitTest
     {
-        ClaimRepo claimRepo;
+        //ClaimRepo claimRepo;
 
         [TestInitialize]
 

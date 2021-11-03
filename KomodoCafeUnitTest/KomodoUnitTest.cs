@@ -15,10 +15,11 @@ namespace KomodoCafeUnitTest
         KomodoCafeMenu _komodoCafeMenu;
 
         [TestInitialize] //Attributes help your computer know what to do with the code below it
-        public void Arrange()
-        {
-            _komodoCafeRepo = new KomodoCafeRepo();
-        }
+        //public void Arrange()
+        //{
+        //    _komodoCafeRepo = new KomodoCafeRepo();
+        //    _komodoCafeMenu = new KomodoCafeMenu("")
+        //}
 
         [TestMethod]
         public void AddItemToMenu_Test()

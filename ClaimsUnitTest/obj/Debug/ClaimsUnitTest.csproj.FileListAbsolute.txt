@@ -9,6 +9,5 @@ C:\Users\Peter\source\repos\GoldBadgeProject\ClaimsUnitTest\bin\Debug\Microsoft.
 C:\Users\Peter\source\repos\GoldBadgeProject\ClaimsUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\Peter\source\repos\GoldBadgeProject\ClaimsUnitTest\obj\Debug\ClaimsUnitTest.csproj.AssemblyReference.cache
 C:\Users\Peter\source\repos\GoldBadgeProject\ClaimsUnitTest\obj\Debug\ClaimsUnitTest.csproj.CoreCompileInputs.cache
-C:\Users\Peter\source\repos\GoldBadgeProject\ClaimsUnitTest\obj\Debug\ClaimsUnitTest.csproj.CopyComplete
 C:\Users\Peter\source\repos\GoldBadgeProject\ClaimsUnitTest\obj\Debug\ClaimsUnitTest.dll
 C:\Users\Peter\source\repos\GoldBadgeProject\ClaimsUnitTest\obj\Debug\ClaimsUnitTest.pdb
