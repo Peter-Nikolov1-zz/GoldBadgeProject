@@ -1,0 +1,9 @@
+C:\Users\Peter\source\repos\GoldBadgeProject\ChallengeTwoClaims\obj\Debug\ClaimsConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\GoldBadgeProject\ChallengeTwoClaims\obj\Debug\ClaimsConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\GoldBadgeProject\ChallengeTwoClaims\bin\Debug\ChallengeTwoClaims.exe.config
+C:\Users\Peter\source\repos\GoldBadgeProject\ChallengeTwoClaims\bin\Debug\ChallengeTwoClaims.exe
+C:\Users\Peter\source\repos\GoldBadgeProject\ChallengeTwoClaims\bin\Debug\ChallengeTwoClaims.pdb
+C:\Users\Peter\source\repos\GoldBadgeProject\ChallengeTwoClaims\bin\Debug\ClaimsClassLibrary.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\ChallengeTwoClaims\bin\Debug\ClaimsClassLibrary.pdb
+C:\Users\Peter\source\repos\GoldBadgeProject\ChallengeTwoClaims\obj\Debug\ChallengeTwoClaims.exe
+C:\Users\Peter\source\repos\GoldBadgeProject\ChallengeTwoClaims\obj\Debug\ChallengeTwoClaims.pdb

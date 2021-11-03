@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace KomodoCafeClassLibrary
 {
-    public enum MealNumbe
-    {
-
-    }
+    
     public class KomodoCafeMenu
     {
         public int MealNumber { get; set; }

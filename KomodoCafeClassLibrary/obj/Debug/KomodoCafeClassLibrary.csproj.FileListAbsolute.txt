@@ -1,6 +1,6 @@
-C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeClassLibrary\obj\Debug\KomodoCafeClassLibrary.csproj.AssemblyReference.cache
-C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeClassLibrary\obj\Debug\KomodoCafeClassLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeClassLibrary\bin\Debug\KomodoCafeClassLibrary.dll
 C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeClassLibrary\bin\Debug\KomodoCafeClassLibrary.pdb
+C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeClassLibrary\obj\Debug\KomodoCafeClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeClassLibrary\obj\Debug\KomodoCafeClassLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeClassLibrary\obj\Debug\KomodoCafeClassLibrary.dll
 C:\Users\Peter\source\repos\GoldBadgeProject\KomodoCafeClassLibrary\obj\Debug\KomodoCafeClassLibrary.pdb
