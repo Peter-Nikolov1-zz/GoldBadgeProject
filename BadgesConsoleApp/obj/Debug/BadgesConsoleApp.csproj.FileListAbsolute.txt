@@ -1,0 +1,9 @@
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\bin\Debug\BadgesConsoleApp.exe.config
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\bin\Debug\BadgesConsoleApp.exe
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\bin\Debug\BadgesConsoleApp.pdb
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\bin\Debug\BadgesClassLibrary.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\bin\Debug\BadgesClassLibrary.pdb
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\obj\Debug\BadgesConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\obj\Debug\BadgesConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\obj\Debug\BadgesConsoleApp.exe
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\obj\Debug\BadgesConsoleApp.pdb
