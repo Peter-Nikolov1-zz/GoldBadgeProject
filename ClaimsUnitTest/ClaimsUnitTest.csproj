@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DD2E0317-522B-4948-A89B-54C307B3B8C9}</ProjectGuid>
+    <ProjectGuid>{8BA362BD-BE4C-4463-9FC9-EDEECEEBDDEF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ClaimsUnitTest</RootNamespace>
@@ -54,6 +54,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClaimsClassLibrary\ClaimsClassLibrary.csproj">
+      <Project>{38289B2C-7F2F-4251-92E7-98F0AA6207C1}</Project>
+      <Name>ClaimsClassLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

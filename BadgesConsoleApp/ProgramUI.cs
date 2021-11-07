@@ -10,7 +10,7 @@ namespace BadgesConsoleApp
     public class ProgramUI
     {
         public readonly BadgesRepo badgesRepo = new BadgesRepo();
-        
+
         public void Run()
         {
             SeedBadgeList();
@@ -51,6 +51,9 @@ namespace BadgesConsoleApp
                     case "3":
                         ViewAllBadges();
                         break;
+                    case "4":
+                        ExitMenu();
+                        break;
                     default:
                         Console.WriteLine("Please enter a valid option (1-4)");
                         Console.ReadKey();
@@ -60,13 +63,14 @@ namespace BadgesConsoleApp
         }
         private void AddABadge()
         {
+            Console.WriteLine("ADDING A BADGE\n" +
+                "-----------------------------------");
             Console.Clear();
             Badges badges = new Badges();
             Console.WriteLine("What is the number on the badge: ");
             string badgeID = Console.ReadLine();
             badges.BadgeID = int.Parse(badgeID);
 
-            
             Console.WriteLine("List a door that it needs access to: ");
             string doorName = Console.ReadLine();
             badges.ListOfDoorNames.Add(doorName);
@@ -85,19 +89,19 @@ namespace BadgesConsoleApp
             }
             badgesRepo.AddBadgeToList(badges);
         }
-
         private void EditABadge()
         {
-            
             Console.Clear();
-            Console.WriteLine("What is the badge number to update?");
-            string badgeIDString = Console.ReadLine();            
+            Console.WriteLine("UPDATING A BADGE \n" +
+                "------------------------------------------------------");
+            Console.WriteLine("What is the badge number you'd like to update? \n");
+            string badgeIDString = Console.ReadLine();
             int badgeID = int.Parse(badgeIDString);
             List<string> doorNames = badgesRepo.GetBadgeByID(badgeID);
             string doorNamesSingleLine = "";
-            foreach(string doorName in doorNames)
+            foreach (string doorName in doorNames)
             {
-                if(doorNamesSingleLine == "")
+                if (doorNamesSingleLine == "")
                 {
                     doorNamesSingleLine = doorName;
                 }
@@ -106,8 +110,8 @@ namespace BadgesConsoleApp
                     doorNamesSingleLine = $"{doorNamesSingleLine} & {doorName}";
                 }
             }
-            Console.WriteLine($"{badgeIDString} has access to doors {doorNamesSingleLine}");
-            Console.ReadLine();
+            Console.WriteLine($"{badgeIDString} has access to doors {doorNamesSingleLine} \n");
+            //Console.ReadLine();
             Console.WriteLine("What would you like to do? \n" +
                 "1. Remove a door \n" +
                 "2. Add a door");
@@ -126,7 +130,6 @@ namespace BadgesConsoleApp
                     AddDoor(badgeID, doorInput2);
                     break;
             }
-
         }
 
         private void AddDoor(int badgeID, string doorName)
@@ -153,7 +156,7 @@ namespace BadgesConsoleApp
             Console.Clear();
             Dictionary<int, List<string>> badgesDictionary = badgesRepo.SeeAllBadges();
             Console.WriteLine("Badge # \t Door Access \n");
-            foreach(KeyValuePair<int, List<string>> kvp in badgesDictionary)
+            foreach (KeyValuePair<int, List<string>> kvp in badgesDictionary)
             {
                 DisplayBadges(kvp.Key, kvp.Value);
             }
@@ -163,7 +166,9 @@ namespace BadgesConsoleApp
         {
             Console.WriteLine($"{key}\t\t {String.Join(",", value)}");
         }
-
-
+        private void ExitMenu()
+        {
+            Environment.Exit(0);
+        }
     }
 }
