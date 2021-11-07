@@ -7,3 +7,4 @@ C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\obj\Debug\BadgesCo
 C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\obj\Debug\BadgesConsoleApp.csproj.CoreCompileInputs.cache
 C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\obj\Debug\BadgesConsoleApp.exe
 C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\obj\Debug\BadgesConsoleApp.pdb
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesConsoleApp\obj\Debug\BadgesConsoleApp.csproj.CopyComplete

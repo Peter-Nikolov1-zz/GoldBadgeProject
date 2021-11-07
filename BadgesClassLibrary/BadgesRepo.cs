@@ -18,7 +18,6 @@ namespace BadgesClassLibrary
         {
             _badgesDictionary[oldBadgeID].Remove(newBadgesDoor);
         }
-
         public void AddDoorToBadge(int oldBadgeID, string newBadgesDoor)
         {
             _badgesDictionary[oldBadgeID].Add(newBadgesDoor);
@@ -34,8 +33,5 @@ namespace BadgesClassLibrary
         {
             return _badgesDictionary[id];
         }
-
-        
-
     }
 }

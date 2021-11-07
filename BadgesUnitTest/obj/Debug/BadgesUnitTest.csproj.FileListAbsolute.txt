@@ -1,0 +1,15 @@
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\BadgesUnitTest.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\BadgesUnitTest.pdb
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\BadgesClassLibrary.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\BadgesClassLibrary.pdb
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\obj\Debug\BadgesUnitTest.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\obj\Debug\BadgesUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\obj\Debug\BadgesUnitTest.dll
+C:\Users\Peter\source\repos\GoldBadgeProject\BadgesUnitTest\obj\Debug\BadgesUnitTest.pdb

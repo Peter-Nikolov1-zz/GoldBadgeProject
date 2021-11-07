@@ -13,7 +13,6 @@ namespace KomodoCafeUnitTest
         //Assert - Compare what the method returned, to what the expected result should have been
         //[TestMethod] above each one
         private KomodoCafeRepo _komodoCafeRepo;
-        private KomodoCafeMenu _komodoCafeMenu;
 
         [TestInitialize]
         public void Arrange()
